@@ -1,0 +1,9 @@
+{
+  "type": "lightning_recipes:lightning_recipe",
+  "input": {
+    "item": "minecraft:grass_block"
+  },
+  "output": "minecraft:diamond_block"
+}
+
+

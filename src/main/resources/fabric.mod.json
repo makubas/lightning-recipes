@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lightning_recipes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lightning Recipes",
+  "description": "Library adds an option to easily create new recipes from lightning hitting lightning rod!",
   "authors": [
-    "Me!"
+    "makubas"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/makubas/lightning-recipes",
+    "sources": "https://github.com/makubas/lightning-recipes",
+    "issues": "https://github.com/makubas/lightning-recipes/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/lightning_recipes/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.lightning_recipes.LightningRecipes"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lightning_recipes.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +32,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

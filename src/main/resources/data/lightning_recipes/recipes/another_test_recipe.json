@@ -1,0 +1,7 @@
+{
+  "type": "lightning_recipes:lightning:recipe",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "output": "minecraft:cobblestone"
+}

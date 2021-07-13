@@ -11,7 +11,7 @@ In your datapack you will need to place `your_recipe_name.json` file under `/dat
 Example `test_recipe.json`:
 ```json
 {
-  "type": "lightning_recipes:lightning:recipe",
+  "type": "lightning_recipes:lightning_recipe",
   "input": {
     "item": "minecraft:grass_block"
   },
@@ -22,7 +22,7 @@ In `input` you can also add a block tag to make it work on all blocks with selec
 for example:
 ```json
 {
-  "type": "lightning_recipes:lightning:recipe",
+  "type": "lightning_recipes:lightning_recipe",
   "input": {
     "tag": "minecraft:logs"
   },

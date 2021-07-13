@@ -33,3 +33,7 @@ for example:
 ## License
 
 This library is available by MIT License.
+
+## CurseForge
+
+https://www.curseforge.com/minecraft/mc-mods/lightning-recipes
